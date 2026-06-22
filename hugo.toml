@@ -1,0 +1,114 @@
+baseURL = 'http://democratic.cz/'
+languageCode = 'cs-cz'
+title = 'Democratic'
+theme = 'hugo-universal-theme'
+
+[markup.goldmark.renderer]
+unsafe = true
+
+[params]
+date_format = "2. January 2006"
+disabled_logo = false
+logo_text = "Democratic"
+logo = "/img/logo-bw-300.png"
+logo_small = "/img/logo-bw-300.png"
+custom_css = ["/styles.css"]
+copyright = "Copyright (c) 2024, DemocraTIC; all rights reserved."
+contact_url = "/kontakt"
+email_address = "democratic@democratic.cz"
+
+[params.social.fb]
+url = "https://www.facebook.com/democratic.cz"
+
+[params.social.ig]
+url = "https://www.instagram.com/democratic_21stcentury/"
+
+[params.topbar]
+enable = false
+text = ""
+
+[params.carouselHomepage]
+enable = true
+auto_play = true
+slide_speed = 2000
+pagination_speed = 1000
+
+[params.features]
+enable = true
+title = "Co děláme"
+cols = 3
+
+[params.testimonials]
+enable = true
+title = "Naši experti"
+subtitle = ""
+
+[params.see_more]
+enable = true
+title = "Naše vize"
+subtitle = "Přistupovat kriticky k informacím a technologiím a využívat je tak, aby ovlivňovaly osobní život i společnost pozitivně. "
+link_url = "/vize/"
+link_text = "Jak toho chceme dosáhnout?"
+
+[params.clients]
+enable = true
+title = "Naši partneři"
+subtitle = ""
+
+[[params.quick_links]]
+title = "Vize"
+url = "/vize"
+
+[[params.quick_links]]
+title = "O nás"
+url = "/o-nas"
+
+[[params.quick_links]]
+title = "DemocraTICon"
+url = "https://democraticon.org"
+
+[[params.quick_links]]
+title = "Kontakt"
+url = "/kontakt"
+
+[[menu.topbar]]
+weight = 1
+name = "GitHub"
+url = "https://github.com/devcows/hugo-universal-theme"
+pre = "<img class='topbar-ic' src='/img/ic_fb.png' />"
+
+[[menu.topbar]]
+weight = 1
+name = "insta"
+url = "https://github.com/devcows/hugo-universal-theme"
+pre = "<img class='topbar-ic' src='/img/ic_ig.png' />"
+
+[[menu.topbar]]
+weight = 1
+name = "youtube"
+url = "https://github.com/devcows/hugo-universal-theme"
+pre = "<img class='topbar-ic' src='/img/ic_yt.png' />"
+
+[[menu.main]]
+name = "Vize"
+identifier = "menu.vision"
+url = "/vize/"
+weight = 1
+
+[[menu.main]]
+name = "O nás"
+identifier = "menu.about_us"
+url = "/o-nas/"
+weight = 2
+
+[[menu.main]]
+name = "DemocraTICon"
+identifier = "menu.democraticon"
+url = "https://democraticon.org"
+weight = 3
+
+[[menu.main]]
+name = "Kontakt"
+identifier = "menu.contact"
+url = "/kontakt/"
+weight = 4

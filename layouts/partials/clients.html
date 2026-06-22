@@ -1,0 +1,22 @@
+{{ if isset .Site.Params "clients" }} {{ if .Site.Params.clients.enable }} {{ if
+isset .Site.Data "clients" }} {{ if gt (len .Site.Data.clients) 0 }}
+<section id="partners" class="bar no-mb">
+  <div class="heading text-center">
+    <h2>{{ .Site.Params.clients.title }}</h2>
+  </div>
+
+  <div class="container">
+    {{ range .Site.Data.clients }}
+    <div class="item" title="{{ .name }}">
+      {{ if .url }}
+      <a href="{{ .url }}" target="_blank">
+        <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+      </a>
+      {{ else }}
+      <img src="{{ .image }}" alt="{{ .name }}" class="img-responsive" />
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+</section>
+{{ end }} {{ end }} {{ end }} {{ end }}

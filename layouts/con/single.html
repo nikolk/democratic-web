@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }} {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+    <div id="all">
+      {{ partial "top.html" . }}{{ partial "nav.html" . }}
+
+      <div id="content">
+        {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
+
+        <div class="container">
+          <div class="row">
+            <div id="democraticon" class="col-md-12">
+              <img id="con-logo" src="/img/DemocraTICon-logo-fixed.svg" />
+
+              <div>{{ .Content }}</div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        {{ end }}
+      </div>
+      <!-- /#content -->
+
+      {{ partial "footer.html" . }}
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+  </body>
+</html>

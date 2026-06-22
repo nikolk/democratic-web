@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="{{ .Site.LanguageCode }}">
+  <head>
+    {{ partial "headers.html" . }} {{ partial "custom_headers.html" . }}
+  </head>
+
+  <body>
+    <div id="all">
+      {{ partial "top.html" . }} {{ partial "nav.html" . }} {{ partial
+      "breadcrumbs.html" . }}
+
+      <div id="content">
+        {{ if isset .Params "id" }} {{ partial .Params.id . }} {{ else }}
+
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div id="contact">
+                <span class="email">democratic@democratic.cz</span>
+                <div class="social-icons">
+                  {{ if .Site.Params.social.fb.url }}
+                  <a class="social-icon" href="{{ .Site.Params.social.fb.url }}"
+                    ><img src="/img/ic_fb_decor.svg"
+                  /></a>
+                  {{ end }} {{ if .Site.Params.social.ig.url }}
+                  <a class="social-icon" href="{{ .Site.Params.social.ig.url }}"
+                    ><img src="/img/ic_ig_decor.svg"
+                  /></a>
+                  {{ end }} {{ if .Site.Params.social.yt.url }}
+                  <a class="social-icon" href="{{ .Site.Params.social.yt.url }}"
+                    ><img src="/img/ic_yt_decor.svg"
+                  /></a>
+                  {{ end }}
+                </div>
+              </div>
+
+              <div>{{ .Content }}</div>
+            </div>
+          </div>
+          <!-- /.row -->
+        </div>
+        <!-- /.container -->
+
+        {{ end }}
+      </div>
+      <!-- /#content -->
+
+      {{ partial "footer.html" . }}
+    </div>
+    <!-- /#all -->
+
+    {{ partial "scripts.html" . }}
+  </body>
+</html>
