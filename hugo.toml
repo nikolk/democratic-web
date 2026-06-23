@@ -1,4 +1,4 @@
-baseURL = 'https://nikolk.github.io/democratic-web/'
+baseURL = 'https://democratic.cz'
 languageCode = 'cs-cz'
 title = 'Democratic'
 theme = 'hugo-universal-theme'
