@@ -1,0 +1,295 @@
+:root {
+  /*main colors*/
+  --main-color-1: #3fedc3; /*modrozelená #3FEDC3*/
+  --main-color-2: #6774e8; /*modrá #6774E8*/
+  --main-color-3: #ff588a; /*růžová #FF588A*/
+
+  --primary-accent: #6774e8;
+  --navbar-border-top: #3fedc3;
+  --footer-color: #221f5b;
+
+  --gradient-main: linear-gradient(
+    90deg,
+    var(--main-color-1),
+    var(--main-color-2),
+    var(--main-color-3)
+  );
+
+  --feat-ic-size: 120px;
+}
+
+span.color-1 {
+  color: var(--main-color-1);
+}
+
+span.color-2 {
+  color: var(--main-color-2);
+}
+
+span.color-3 {
+  color: var(--main-color-3);
+}
+
+body,
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Lexend", sans-serif;
+  font-weight: initial;
+}
+
+body {
+  background-color: #333;
+}
+
+section {
+  margin-bottom: 0;
+}
+
+td {
+  padding: 10px;
+}
+
+#all {
+  background-color: white;
+}
+
+.navbar {
+  background: rgb(63, 237, 195);
+  background: var(--gradient-main);
+}
+
+.navbar ul.nav > li > a {
+  text-transform: none;
+  font-weight: 500;
+}
+
+.nav .dropdown a {
+  background-color: unset !important;
+  color: white !important;
+  text-decoration: none !important;
+  font-size: 18px;
+}
+
+.nav .dropdown a:hover {
+  border-top-color: transparent !important;
+  text-decoration: underline !important;
+}
+
+.nav .dropdown.active a {
+  border-top-color: white !important;
+}
+
+.home-carousel {
+  background: rgb(63, 237, 195);
+  background: var(--gradient-main);
+}
+
+#heading-breadcrumbs {
+  background: unset;
+  margin: unset;
+
+  h1 {
+    font-weight: initial;
+  }
+}
+
+.dark-mask {
+  visibility: hidden;
+}
+
+.icon {
+  background: unset !important;
+  border: unset !important;
+  color: unset !important;
+  width: var(--feat-ic-size);
+  height: var(--feat-ic-size);
+}
+
+.feat-ic {
+  background-size: var(--feat-ic-size) var(--feat-ic-size);
+  width: var(--feat-ic-size);
+  height: var(--feat-ic-size);
+  display: inline-block;
+}
+
+.ic-cup {
+  background-image: url(/img/cup.svg);
+}
+
+.ic-head {
+  background-image: url(/img/head.svg);
+}
+
+.ic-network {
+  background-image: url(/img/network.svg);
+}
+
+.bar.background-image-fixed-2 {
+  background: rgb(63, 237, 195);
+  background: var(--gradient-main);
+}
+
+.bar.background-image-fixed-2 .icon {
+  visibility: hidden;
+  height: 0;
+}
+
+.testimonial .icon {
+  visibility: hidden;
+}
+
+.testimonials .owl-item {
+  border-width: 2px;
+  border-style: solid;
+  border-image: var(--gradient-main) 30;
+}
+
+.name-picture img {
+  height: 60px;
+}
+
+.bar.background-pentagon {
+  background: url(/img/testimonials-bg.svg) center center;
+}
+
+#content {
+  padding-bottom: 50px;
+  font-size: 16px;
+}
+
+.heading h2 {
+  border: none;
+}
+
+.topbar-ic {
+  height: 20px;
+}
+
+/*partners*/
+#partners {
+  background-color: #d9d9d9;
+
+  .container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    .item {
+      width: 230px;
+      align-content: center;
+      margin: 20px;
+
+      img {
+        max-height: 90px;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}
+
+#footer {
+  background-color: var(--footer-color);
+}
+
+#footer .quick-link {
+  font-size: 20px;
+  font-weight: 300;
+  color: white;
+}
+
+#footer .email {
+  color: white;
+  font-size: 20px;
+}
+
+#footer .social-icons {
+  padding: 16px 0;
+}
+
+#footer .social-icon img {
+  height: 40px;
+  width: 40px;
+  margin-right: 10px;
+}
+
+#copyright {
+  padding: 20px 0;
+}
+
+#copyright .pull-right {
+  visibility: hidden;
+}
+
+/*about us*/
+#team {
+  padding-top: 20px;
+}
+
+#teammates {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 40px;
+  padding: 40px 0;
+  text-align: center;
+}
+
+.teammate {
+  min-width: 350px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+
+  span {
+    max-width: 300px;
+  }
+
+  .name {
+    font-weight: 700;
+  }
+}
+
+/*contact*/
+#contact {
+  .social-icons {
+    display: flex;
+    gap: 30px;
+    margin: 30px 0;
+  }
+
+  .social-icon img {
+    max-width: 60px;
+    max-height: 60px;
+  }
+
+  .email {
+    font-size: 18px;
+  }
+}
+
+/*democraticon*/
+#democraticon {
+  text-align: center;
+  padding: 20px 0;
+  font-size: 16px;
+}
+
+#con-logo {
+  padding: 30px 0;
+  max-width: 400px;
+}
+
+@media (width <= 600px) {
+  #con-logo {
+    max-width: 300px;
+  }
+}
+
+/*utils*/
+.text-center {
+  text-align: center;
+}
