@@ -20,7 +20,7 @@ jobs:
           extended: true
 
       - name: Build
-        run: hugo --minify
+        run: hugo --minify --baseURL "https://nikolk.github.io/democratic-web/"
 
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v4
