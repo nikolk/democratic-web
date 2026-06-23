@@ -16,6 +16,9 @@ custom_css = ["/styles.css"]
 copyright = "Copyright (c) 2024, DemocraTIC; all rights reserved."
 contact_url = "/kontakt"
 email_address = "democratic@democratic.cz"
+defaultDescription = "DemocraTIC je občanský spolek rozvíjející digitální gramotnost postavenou na demokratických hodnotách. Pořádáme vzdělávací programy a soutěž DemocraTICon."
+default_sharing_image = "img/logo-bw-300.png"
+defaultKeywords = ["demokracie", "digitální gramotnost", "vzdělávání", "DemocraTICon"]
 
 [params.social.fb]
 url = "https://www.facebook.com/democratic.cz"
@@ -46,7 +49,7 @@ subtitle = ""
 [params.see_more]
 enable = true
 title = "Naše vize"
-subtitle = "Přistupovat kriticky k informacím a technologiím a využívat je tak, aby ovlivňovaly osobní život i společnost pozitivně. "
+subtitle = "Přistupovat kriticky k informacím a technologiím a využívat je tak, aby pozitivně ovlivňovaly osobní život i celou společnost."
 link_url = "/vize/"
 link_text = "Jak toho chceme dosáhnout?"
 
