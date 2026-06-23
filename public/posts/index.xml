@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Democratic</title>
+    <link>http://democratic.cz/posts/</link>
+    <description>Recent content in Posts on Democratic</description>
+    <generator>Hugo</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Tue, 04 Jun 2024 20:51:02 +0200</lastBuildDate>
+    <atom:link href="http://democratic.cz/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Příliš žluťoučký kůň úpěl ďábelské ódy</title>
+      <link>http://democratic.cz/posts/first-test/</link>
+      <pubDate>Tue, 04 Jun 2024 20:51:02 +0200</pubDate>
+      <guid>http://democratic.cz/posts/first-test/</guid>
+      <description>hello world</description>
+    </item>
+  </channel>
+</rss>

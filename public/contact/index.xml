@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Contacts on Democratic</title>
+    <link>http://democratic.cz/contact/</link>
+    <description>Recent content in Contacts on Democratic</description>
+    <generator>Hugo</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Tue, 25 Jun 2024 22:10:38 +0200</lastBuildDate>
+    <atom:link href="http://democratic.cz/contact/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Spojte se s námi</title>
+      <link>http://democratic.cz/kontakt/</link>
+      <pubDate>Tue, 25 Jun 2024 22:10:38 +0200</pubDate>
+      <guid>http://democratic.cz/kontakt/</guid>
+      <description></description>
+    </item>
+  </channel>
+</rss>

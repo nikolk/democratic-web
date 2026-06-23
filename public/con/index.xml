@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Cons on Democratic</title>
+    <link>http://democratic.cz/con/</link>
+    <description>Recent content in Cons on Democratic</description>
+    <generator>Hugo</generator>
+    <language>cs-cz</language>
+    <lastBuildDate>Tue, 25 Jun 2024 22:10:28 +0200</lastBuildDate>
+    <atom:link href="http://democratic.cz/con/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Democraticon</title>
+      <link>http://democratic.cz/democraticon/</link>
+      <pubDate>Tue, 25 Jun 2024 22:10:28 +0200</pubDate>
+      <guid>http://democratic.cz/democraticon/</guid>
+      <description>Soutěž v digitálních dovednostech pro všechny středoškoláky&#xA;Přehlídka organizací zabývajících se zodpovědným přístupem k technologiím a informacím&#xA;Tematický zábavný doprovodný program&#xA;Workshopy pro pedagogy&#xA;Přednášky&#xA;a další&amp;hellip;</description>
+    </item>
+  </channel>
+</rss>

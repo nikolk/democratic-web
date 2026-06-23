@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="350.82816"
+   zoomAndPan="magnify"
+   viewBox="0 0 263.12112 555.28514"
+   height="740.38019"
+   preserveAspectRatio="xMidYMid"
+   version="1.0"
+   id="svg2"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1">
+    <clipPath
+       id="4537066696">
+      <path
+         d="M 380.38672,10 H 643.50781 V 566 H 380.38672 Z m 0,0"
+         clip-rule="nonzero"
+         id="path1" />
+    </clipPath>
+  </defs>
+  <g
+     clip-path="url(#4537066696)"
+     id="g2"
+     transform="translate(-380.38672,-10.300781)">
+    <path
+       fill="#ffffff"
+       d="m 582.80469,101.83594 h 60.70312 V 10.300781 h -77.51172 v 0.351563 C 464.08594,14.386719 443.07422,71.480469 441.32422,131.84375 h -0.23438 v 63.51172 h -60.70312 v 91.65234 h 60.70312 V 565.58594 H 550.00391 V 287.00781 h 78.09765 l 15.40625,-91.65234 h -93.5039 v -56.85938 c 0,-20.19531 13.54296,-36.66015 32.80078,-36.66015 z m 0,0"
+       fill-opacity="1"
+       fill-rule="nonzero"
+       id="path2" />
+  </g>
+</svg>
