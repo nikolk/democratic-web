@@ -1,4 +1,4 @@
-baseURL = 'https://democratic.cz'
+baseURL = 'https://www.democratic.cz'
 languageCode = 'cs-cz'
 title = 'Democratic'
 theme = 'hugo-universal-theme'
